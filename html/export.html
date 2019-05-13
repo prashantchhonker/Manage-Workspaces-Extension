@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Thoughtspace List</title>
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" href="../css/export.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Export Thoughtspace</div>
+        <textarea id="thoughtspaceJson" rows="5" readonly></textarea>
+        <div class="buttons-container">
+            <button id="backButton" type="button" class="button button-primary">Back</button>
+            <button id="exportThoughtspaceButton" type="button" class="button button-primary" style="float: right;">Copy Thoughtspace to clipboard</button>
+        </div>
+    </div>
+    <script src='../scripts/lib/jquery-3.2.1.min.js'></script>
+    <script src='../scripts/lib/localforage.min.js'></script>
+    <script src='../scripts/export.js'></script>
+</body>
+
+</html>

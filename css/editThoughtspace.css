@@ -1,0 +1,12 @@
+.editTable {
+    flex: 0 0 45%;
+}
+
+.img-button {
+    line-height: 1rem;
+    margin-left: 0;
+}
+
+#thoughtspaceTable {
+    width: 90%;
+}

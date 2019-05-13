@@ -1,0 +1,164 @@
+Todo
+--------------------------------------------------------------------------
+rework homepage - change icons, rework the placement, put sorting arrow, pagination
+change 'browse' to 'view'. put current url, title as first id in list. -- 
+put history inside create page --
+browse, edit and export tabs should show thoughtspace name in the heading -- 
+change 'description' to 'url' in tables --
+make tooltips work for tables --
+make buttons standard sizes / small sizes --
+
+make import checks for empty and valid json -- 
+Arrow key functionality --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+put new fonts -- done
+------------------------------------
+Session based browing History functionality --
+Pagination(browse, edit, create, homepage)(divide lists into sets of 10 and display only one set at a time based on user input) -- 
+Implement "spaced repitition" to the Thoughtspace extension --
+------------------------------------
+Store 'rendered html page' of all the links in all extension --
+prerender(https://css-tricks.com/prefetching-preloading-prebrowsing/) --
+create a url based extension for workspaces. CREATE REST ENDPOINT THAT RETURNS A LINK THAT CAN BE SHARED.
+PUT THE PLUGIN OVER ANDROID AND IOS.
+ENQUIRE ABOUT PINTEREST
+CONCEPT OF FUNCTIONAL THEMES
+LOGIN THROUGH: GOOGLE AND FACEBOOK AND TWITTER
+AUTOGENERATE USERNAME AND PASSWORD AND SOME DATA FOR TRIAL PURPOSES
+FOCUS MORE ON HOW TO DOCUMENT THE EXISTING CODEBASE RATHER THAN FOCUSSING ON DOCUMENTING THE NEW CODE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+--------------------------------------------------------------------------
+web usage history
+spaced revision
+preload extension with some useful workspaces...
+1. social (facebook, twitter, instagram, slack, etc.)
+2. Torrent sites.
+3. web-emails
+4. Search Engines(Maybe functionality to search in all search engines at once.)
+5. useful extensions.
+6. e-learning sites(lynda, egghead, coursera, pluralsight, udemy, Codecademy, tuts+, udacity)
+7. Moocs
+8. some youtube channels.
+9. some youtube playlists.
+10. Your best courses.
+11. chrome addresses like extensions, history, flags, top sites etc.
+send workspaces to different people(followers, employees, etc.) 'spaced revision' style
+
+------------------------------------
+ctrl + pageup or ctrl + pagedown for switching sublime text tabs.
+ctrl alt b for beautifying
+ctrl-shift-m for reading markdown files.
+Open replace panel  Ctrl + H
+
+Tools -> Command Palette (Cmd+Shift+P or Ctrl+Shift+P) and type htmlprettify.
+
+ctrl + k - deletes everything from cursor to the end.
+Ctrl+Backspace – Delete previous word.
+Ctrl+Delete – Delete next word.
+
+To copy, use Ctrl+Shift+C
+To paste, use Ctrl+Shift+V or Shift+insert
+
+To paste, use Ctrl+Shift+V or Shift+insert
+
+To copy, use Ctrl+Shift+C
+To paste, use Ctrl+Shift+V / Shift+insert
+
+
+
+map how you think the code executes visually into a source code animation.
+allow the community of users who use a piece of software to vote on request for new features.
+store jquery click handlers execution sequence in order and rerun them using trigger method.
+create a video course for vwo.
+
+------------------------------------
+
+preferences → Settings → User
+
+with promises we get the results in 'then' of individual promises or the collective 'then' of Promise.all but not both.
+
+a/b testing is like forced evolution.
+
+https://www.shareicon.net/bt-direction-move-top-navigation-arrow-up-111447 arrow icons downloaded from here
+
+
+Ubuntu Terminal Commands
+------------------------------------
+Ctrl + A or Home : Moves the cursor to the start of a line.
+Ctrl+ E or End : Moves the cursor to the end of a line.
+Esc + B : Moves to the beginning of the previous or current word.
+Ctrl + K : Deletes from the current cursor position to the end of the line.
+Ctrl + U : Deletes from the start of the line to the current cursor position.
+Ctrl + W : Deletes the word before the cursor.
+Alt + B : Goes back one word at a time.
+Alt + F : Moves forward one word at a time.
+Alt + C : Capitalizes letter where cursor is and moves to end of word.
+Up Arrow or Ctrl + P : Scrolls through the commands you’ve entered previously.
+Down Arrow or Ctrl + N : Takes you back to a more recent command.
+tab : It autocompletes any commands or filenames, if there’s only one option, or else gives you a list of options.
+Ctrl + R : Searches for commands you’ve already typed.
+History : The history command shows a very long list of commands that you have typed.
+
+--------------------------------------

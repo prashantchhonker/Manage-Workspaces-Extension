@@ -1,0 +1,7 @@
+#thoughtspaceJson {
+    /*width: 100%;*/
+    box-sizing: border-box;
+    resize: none;
+    height: 16rem;
+    flex:0 0 75%;
+}

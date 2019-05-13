@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Thoughtspace List</title>
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" href="../css/browseThoughtspace.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Thoughtspace Tabs</div>
+        <div class="buttons-container">
+            <button id="selectAllButton" type="button" class="button button-primary">Select All</button>
+            <button id="selectNoneButton" type="button" class="button button-primary">Select None</button>
+        </div>
+        <div id="thoughtspaceTable" class="table">
+            <div class="table-head">
+                <div class="table-data table-5">#</div>
+                <div class="table-data table-40">Title</div>
+                <div class="table-data table-55">Description</div>
+            </div>
+            <div id="thoughtspaceTableContent" class="table-body"></div>
+        </div>
+        <div class="buttons-container">
+            <button id="backButton" type="button" class="button button-primary">Back</button>
+            <button id="openSelectedTabsButton" type="button" class="button button-primary">Open Selected Tabs</button>
+        </div>
+    </div>
+    <script type="text/template" id="thoughtspaceRowTemplate">
+        <div id="row_$serial" class="table-row">
+            <div class="table-data table-checkbox table-5">
+                <input name="tabUrl" type="checkbox" class="checkboxClass" value="$url" checked>
+            </div>
+            <div class="table-data table-title table-40">$title</div>
+            <div class="table-data table-description table-55">$url</div>
+        </div>
+    </script>
+    <script src='../scripts/lib/jquery-3.2.1.min.js'></script>
+    <script src='../scripts/lib/localforage.min.js'></script>
+    <script src='../scripts/common.js'></script>
+    <script src='../scripts/browseThoughtspace.js'></script>
+</body>
+
+</html>
